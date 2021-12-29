@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 3</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title-background">
+            <h1 class="title" data-color="whitesmoke">Update CSS Variables with </h1>
+        </div>
+        
+        <form action="">
+            <label for="spacing" class="range-text">Spacing</label>
+            <input name="spacing"  type="range" min="-150" max="150" step="5" data-sizing="px">
+            
+            <label for="blur" class="range-text">Blur</label>
+            <input name="blur" type="range" min="0" max="20" step="2" value="0" data-sizing="px">
+            
+            <label for="color" class="range-text">Base Color</label>
+            <input name="color" type="color" value="#8F5C6D">
+        </form>
+    </header>
+
+    <picture class="background">
+        <img  class="background-image" src="content/background.jpg"
+        alt="Page's background">
+        </img>
+    </picture>
+
+    <script src="./index.js"></script>
+</body>
+</html>
